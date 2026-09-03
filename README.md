@@ -36,7 +36,8 @@ Raw exports (`orders.csv`, `orderlines.csv`, `products.csv`) go through a cleani
 
 **A bigger discount doesn't sell more** - any discount roughly doubles average units sold vs. no discount at all, but going deeper than that barely moves the number. 
 
-![Discount vs units sold](plots/discount_vs_units_sold.png)
+<p align="center"><img src="plots/discount_vs_units_sold.png" width="500" alt="Discount vs units sold"></p>
+
 
 
 ## Repo structure
