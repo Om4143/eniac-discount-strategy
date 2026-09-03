@@ -32,7 +32,7 @@ Raw exports (`orders.csv`, `orderlines.csv`, `products.csv`) go through a cleani
 
 **Seasonality drives sales more than discount depth does** - November 2017 (Black Friday) had the most orders and the highest average order value of the year, at a discount (22%) that wasn't even the year's deepest.
 
-![Seasonality and special dates](plots/discount_by_price_tier.png)
+![Seasonality and special dates](plots/seasonality_and_special_dates.png)
 
 **A bigger discount doesn't sell more** - any discount roughly doubles average units sold vs. no discount at all, but going deeper than that barely moves the number. 
 
