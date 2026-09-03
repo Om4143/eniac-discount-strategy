@@ -18,10 +18,10 @@ Raw exports (`orders.csv`, `orderlines.csv`, `products.csv`) go through a cleani
 
 | Notebook | What it does |
 |---|---|
-| [`notebooks/01_clean_orders.ipynb`](notebooks/01_clean_orders.ipynb) | Cleans `orders.csv`: fixes date types, drops the handful of rows with missing `total_paid`, trims stray whitespace from `state`. Outputs `orders.clean.csv`. |
-| [`notebooks/02_clean_orderlines.ipynb`](notebooks/02_clean_orderlines.ipynb) | Cleans `orderlines.csv`: fixes malformed `unit_price` text (double decimal points), drops the lines that couldn't be recovered, parses dates. |
-| [`notebooks/03_clean_products.ipynb`](notebooks/03_clean_products.ipynb) | Cleans `products.csv`: drops 8,746 exact duplicate rows, dedupes by SKU, fills missing `desc`/`type`, and fixes malformed `price`/`promo_price` text. Outputs `product_clean_1.csv`. |
-| [`notebooks/04_discount_analysis.ipynb`](notebooks/04_discount_analysis.ipynb) | The actual analysis: computes discount % and revenue per orderline, segments products into price tiers, and builds the charts behind the recommendation above. |
+| [`notebooks/clean_orders.ipynb`](notebooks/clean_orders.ipynb) | Cleans `orders.csv`: fixes date types, drops the handful of rows with missing `total_paid`, trims stray whitespace from `state`. Outputs `orders.clean.csv`. |
+| [`notebooks/clean_orderlines.ipynb`](notebooks/clean_orderlines.ipynb) | Cleans `orderlines.csv`: fixes malformed `unit_price` text (double decimal points), drops the lines that couldn't be recovered, parses dates. |
+| [`notebooks/clean_product.ipynb.ipynb`](notebooks/clean_product.ipynb) | Cleans `products.csv`: drops 8,746 exact duplicate rows, dedupes by SKU, fills missing `desc`/`type`, and fixes malformed `price`/`promo_price` text. Outputs `product_clean_1.csv`. |
+| [`notebooks/discount_ana.ipynb.ipynb`](notebooks/discount_ana.ipynb.ipynb) | The actual analysis: computes discount % and revenue per orderline, segments products into price tiers, and builds the charts behind the recommendation above. |
 
 
 ## Key charts
