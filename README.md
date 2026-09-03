@@ -20,8 +20,8 @@ Raw exports (`orders.csv`, `orderlines.csv`, `products.csv`) go through a cleani
 |---|---|
 | [`notebooks/clean_orders.ipynb`](notebooks/clean_orders.ipynb) | Cleans `orders.csv`: fixes date types, drops the handful of rows with missing `total_paid`, trims stray whitespace from `state`. Outputs `orders.clean.csv`. |
 | [`notebooks/clean_orderlines.ipynb`](notebooks/clean_orderlines.ipynb) | Cleans `orderlines.csv`: fixes malformed `unit_price` text (double decimal points), drops the lines that couldn't be recovered, parses dates. |
-| [`notebooks/clean_products.ipynb.ipynb`](notebooks/clean_product.ipynb) | Cleans `products.csv`: drops 8,746 exact duplicate rows, dedupes by SKU, fills missing `desc`/`type`, and fixes malformed `price`/`promo_price` text. Outputs `products.clean.csv`. |
-| [`notebooks/discount_ana.ipynb.ipynb`](notebooks/discount_ana.ipynb.ipynb) | The actual analysis: computes discount % and revenue per orderline, segments products into price tiers, and builds the charts behind the recommendation above. |
+| [`notebooks/clean_products.ipynb`](notebooks/clean_products.ipynb) | Cleans `products.csv`: drops 8,746 exact duplicate rows, dedupes by SKU, fills missing `desc`/`type`, and fixes malformed `price`/`promo_price` text. Outputs `products.clean.csv`. |
+| [`notebooks/discount_ana.ipynb`](notebooks/discount_ana.ipynb) | The actual analysis: computes discount % and revenue per orderline, segments products into price tiers, and builds the charts behind the recommendation above. |
 
 
 ## Key charts
